@@ -28,7 +28,7 @@ const firstView = (
           title="Activate Cooler Boost"
           color="#d00000"
           onPress={() => Alert.alert('Cooler Boost Activated',
-          'This will make your computer cooler while you game.')}
+          'This will make your computer cooler while you game. It will also make your computer take off.')}
     />
   </View>
 )
