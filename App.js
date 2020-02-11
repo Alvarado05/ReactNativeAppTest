@@ -22,13 +22,13 @@ const firstView = (
     style = {{ width: 243, height: 300 }}
     />
     <Text></Text>
-    <Text style={{color: '#fafafa'}} >Welcome to the MSI Team</Text>
+    <Text style={{color: '#fafafa', fontSize: 25, fontWeight:'bold'}} >Welcome to the MSI Team</Text>
   </View>
 )
 
 const secondView = (
   <View style={styles.container}>
-    <Text style={{fontWeight:'bold'}}>
+    <Text style={{fontWeight:'bold', color:'white'}}>
       Text Bold
         <Text style={{color:'red'}}>
           Nested Text in red
